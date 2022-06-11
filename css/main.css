@@ -1444,10 +1444,9 @@ header.header {
   line-height: 1.8;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .post-toc .nav .nav-child {
-  display: none;
+  display: block;
 }
 .post-toc .nav .active > .nav-child {
   display: block;
@@ -2532,7 +2531,7 @@ ul.breadcrumb li:last-child {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #f51796;
+  background: #ff9550;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
