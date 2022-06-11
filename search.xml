@@ -2,21 +2,29 @@
 <search>
   <entry>
     <title>hexo &amp; next 配置</title>
-    <url>/2022/06/10/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <url>/2022/06/10/hexo%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>关于 <a href="https://hexo.io/">Hexo</a>的相关说明!  <a href="https://hexo.io/docs/">hexo的官方文档</a>  当使用hexo时遇到问题，可以在<a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a>找到答案 或者在作者的github上提issue <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Hexo-基本操作"><a href="#Hexo-基本操作" class="headerlink" title="Hexo 基本操作"></a>Hexo 基本操作</h2><h3 id="创建新的post"><a href="#创建新的post" class="headerlink" title="创建新的post"></a>创建新的post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="启动本地服务"><a href="#启动本地服务" class="headerlink" title="启动本地服务"></a>启动本地服务</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">$ npx hexo s</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="生产静态页面"><a href="#生产静态页面" class="headerlink" title="生产静态页面"></a>生产静态页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ npx hexo g</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="推到远端"><a href="#推到远端" class="headerlink" title="推到远端"></a>推到远端</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">$ npx hexo d</span><br></pre></td></tr></table></figure>
+<h3 id="Clean"><a href="#Clean" class="headerlink" title="Clean"></a>Clean</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npx hexo clean</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="next-主题设置"><a href="#next-主题设置" class="headerlink" title="next 主题设置"></a>next 主题设置</h2><h3 id="next-下载安装"><a href="#next-下载安装" class="headerlink" title="next 下载安装"></a>next 下载安装</h3><p>由于原仓库持有者的维护问题，建议使用<a href="https://github.com/next-theme/hexo-theme-next">next-theme</a>仓库中的theme，以保证自己的blog便于维护。<br>具体安装步骤如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+<p>或者直接克隆仓库</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p>在下载安装完主题后，对hexo的配置文件_config.yml进行修改</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+<h3 id="next-主题自定义配置"><a href="#next-主题自定义配置" class="headerlink" title="next 主题自定义配置"></a>next 主题自定义配置</h3><p>next 的配置文件为&#x2F;next&#x2F;_config.yml</p>
 ]]></content>
   </entry>
 </search>
