@@ -37,5 +37,9 @@
 <p>相关配置：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line"><span class="attr">separated_meta:</span> <span class="literal">true</span>  <span class="comment"># false会显示一行</span></span><br><span class="line"><span class="attr">item_text_post:</span> <span class="literal">true</span>  <span class="comment"># 显示属性名称,设为false后只显示图标和统计数字,不显示属性的文字</span></span><br><span class="line"><span class="attr">item_text_total:</span> <span class="literal">true</span> <span class="comment"># 底部footer是否显示字数统计属性文字</span></span><br><span class="line"><span class="attr">awl:</span> <span class="number">4</span>                <span class="comment"># 计算字数的一个设置,没设置过</span></span><br><span class="line"><span class="attr">wpm:</span> <span class="number">275</span>              <span class="comment"># 一分钟阅读的字数</span></span><br></pre></td></tr></table></figure>
 <h3 id="代码块复制按钮显示"><a href="#代码块复制按钮显示" class="headerlink" title="代码块复制按钮显示"></a>代码块复制按钮显示</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">copy_button:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Available values: default | flat | mac</span></span><br><span class="line">  <span class="attr">style:</span></span><br><span class="line">  <span class="attr">show_result:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>配置</tag>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
